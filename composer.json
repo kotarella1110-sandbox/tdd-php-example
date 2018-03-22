@@ -1,0 +1,19 @@
+{
+    "name": "kotarella1110/tdd-php-example",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TDD\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TDD\\Tests\\": "tests/"
+        }
+    }
+}
